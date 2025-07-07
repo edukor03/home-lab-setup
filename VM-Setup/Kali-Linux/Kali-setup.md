@@ -8,11 +8,11 @@ This document outlines the installation, configuration, and tools used on the Ka
 
 | Setting            | Value                    |
 |--------------------|--------------------------|
-| Hostname           | kali-attacker            |
+| Hostname           | kali                     |
 | IP Address         | 192.168.56.10            |
-| OS Version         | Kali Linux 2024.2 (64-bit) |
+| OS Version         | Kali Linux 2025.2 (64-bit) |
 | Role               | Offensive security / attacker box |
-| Network Type       | Host-only (vboxnet0)     |
+| Network Type       | Internal Network         |
 
 ---
 
@@ -27,7 +27,7 @@ This document outlines the installation, configuration, and tools used on the Ka
 | RAM        | 2–4 GB                   |
 | CPUs       | 2                        |
 | Disk       | 40 GB (dynamically allocated) |
-| Network    | Host-only Adapter (Static IP) |
+| Network    | Internal Network         |
 
 ---
 
