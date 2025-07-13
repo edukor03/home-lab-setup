@@ -31,11 +31,18 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 * Hard Disk: 30 GB VDI (dynamically allocated)
 
 ### Screenshots
-#### Dowloading File
+#### Dowloading File and Installing Kali VM
 <img src="screenshots/kali-setup_1.png" width="400px">
+<p>The official Kali Linu website provides different intallation files of kali linux based on what virtualisation software you are using. In this case I am choosing VirtualBox option. Press download and it should install latest version for you.</p>
 <img src="screenshots/kali-setup_2.png" width="400px">
+<p>Most likely it will be installed in a zip file, just extract the contents into the choosen folder.</p>
 <img src="screenshots/kali-setup_4.png" width="400px">
+<p>Inside the virtualisation software, like VirtualBox, use the option to add a new VM. Select the VM file that was extracted.</p>
 <img src="screenshots/kali-setup_3.png" width="400px">
+<p>Before installation, it will allow you to configure settings for the new VM. The configurations for this VM is listed above.</p>
 <img src="screenshots/kali-setup_6.png" width="400px">
+<p>Once everything is installed, the new Kali Linux VM will be ready to start.</p>
 <img src="screenshots/kali-setup_7.png" width="400px">
+<p>Using this method to install Kali Linux, username and password will be set to "kali". Both usernames and passwords can be changed later on.</p>
 <img src="screenshots/kali-setup_8.png" width="400px">
+<p>If everything done right, you should be able to log into the system.</p>
