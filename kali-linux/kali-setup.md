@@ -61,6 +61,16 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 
 #### 3. Configuring Static IP Address
 <img src="screenshots/kali-setup_13.png" width="400px">
+<p>On the right side of the taskbar at the top there is an icon that looks like ethernet port. This is used to change ethernet options.</p>
+<p>Right click on ethernet icon and it should open up a floating menu, then click on edit connections.</p>
 <img src="screenshots/kali-setup_14.png" width="400px">
+<p>To configure a new static IP address option, click on the plus button at the bottom left side of the menu.</p>
+<p>It prompt to choose a connection type, select ethernet and press continue.</p>
 <img src="screenshots/kali-setup_15.png" width="400px">
+<p>Navigate to IPv4 Settings tab.</p>
+<p>Before configuring the static IP address, change the method from DHCP to manual. Its important to set method to manual to prevent the system automatically changing your ethernet connection.</p>
+<p>In the table enter your IP address. Once all done, save the configurations.</p>
+<p>To change the ethernet connection, left click on ethernet icon and select your new ethernet connection.</p>
 <img src="screenshots/kali-setup_16.png" width="400px">
+<p>To ensure that the IP address has changed open the terminal and enter "ifconfig" command. If you can see that it displays your new static IP address then the change was successful.</p>
+<p>"ifconfig" is used to confiure and manage network configurations. It allows users to view and change network settings, interface status. In this case its used to view the IP and interface information.</p>
