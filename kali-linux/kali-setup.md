@@ -34,9 +34,8 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 #### Dowloading File
 <img src="screenshots/kali-setup_1.png" width="400px">
 <img src="screenshots/kali-setup_2.png" width="400px">
-<img src="screenshots/kali-setup_3.png" width="400px">
 <img src="screenshots/kali-setup_4.png" width="400px">
-<img src="screenshots/kali-setup_5.png" width="400px">
+<img src="screenshots/kali-setup_3.png" width="400px">
 <img src="screenshots/kali-setup_6.png" width="400px">
 <img src="screenshots/kali-setup_7.png" width="400px">
 <img src="screenshots/kali-setup_8.png" width="400px">
