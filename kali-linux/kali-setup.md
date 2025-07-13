@@ -48,6 +48,8 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 <p>If everything done right, you should be able to log into the system.</p>
 
 #### 2. Updating & Upgrading Kali Linux
+> [!IMPORTANT]
+> Before doing the next steps ensure that your VM network is set to NAT and is connected to the internet.
 <img src="screenshots/kali-setup_9.png" width="400px">
 <p>"apt update" is used to refresh the package list for Linux system. Its essential to perform this once in a while to make sure your systems keeps up to date. Once the command is used it will display any packages that fetched from the web.</p>
 <img src="screenshots/kali-setup_10.png" width="400px">
@@ -55,4 +57,7 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 <p>"apt upgrade" is used to install the latest versions of the installed packages. Before this command can be used, "apt update" needs to be executed first.</p>
 <p>During installation stage, it will list all the packages that needs to be installed and ask if you want to proceed. Just enter "y" to continue.</p>
 <img src="screenshots/kali-setup_12.png" width="400px">
-<p>Terminal can be closed once installation is complete.</p>
+<p>Terminal can be closed once installation is completed.</p>
+
+#### 3. Configuring Static IP Address
+
