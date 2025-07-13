@@ -31,7 +31,7 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 * Hard Disk: 30 GB VDI (dynamically allocated)
 
 ### Screenshots
-#### Dowloading File and Installing Kali VM
+#### 1. Dowloading File and Installing Kali VM
 <img src="screenshots/kali-setup_1.png" width="400px">
 <p>The official Kali Linu website provides different intallation files of kali linux based on what virtualisation software you are using. In this case I am choosing VirtualBox option. Press download and it should install latest version for you.</p>
 <img src="screenshots/kali-setup_2.png" width="400px">
@@ -46,3 +46,13 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 <p>Using this method to install Kali Linux, username and password will be set to "kali". Both usernames and passwords can be changed later on.</p>
 <img src="screenshots/kali-setup_8.png" width="400px">
 <p>If everything done right, you should be able to log into the system.</p>
+
+#### 2. Updating & Upgrading Kali Linux
+<img src="screenshots/kali-setup_9.png" width="400px">
+<p>"apt update" is used to refresh the package list for Linux system. Its essential to perform this once in a while to make sure your systems keeps up to date. Once the command is used it will display any packages that fetched from the web.</p>
+<img src="screenshots/kali-setup_10.png" width="400px">
+<img src="screenshots/kali-setup_11.png" width="400px">
+<p>"apt upgrade" is used to install the latest versions of the installed packages. Before this command can be used, "apt update" needs to be executed first.</p>
+<p>During installation stage, it will list all the packages that needs to be installed and ask if you want to proceed. Just enter "y" to continue.</p>
+<img src="screenshots/kali-setup_12.png" width="400px">
+<p>Terminal can be closed once installation is complete.</p>
