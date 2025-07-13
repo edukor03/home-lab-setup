@@ -60,4 +60,7 @@ Setting up Kali Linux VM is a part of setting a cyber security lab. It will be u
 <p>Terminal can be closed once installation is completed.</p>
 
 #### 3. Configuring Static IP Address
-
+<img src="screenshots/kali-setup_13.png" width="400px">
+<img src="screenshots/kali-setup_14.png" width="400px">
+<img src="screenshots/kali-setup_15.png" width="400px">
+<img src="screenshots/kali-setup_16.png" width="400px">
