@@ -1,5 +1,7 @@
-# home-lab-setup
-Simulated lab environments.
+# 🔬 Home Lab Setup
+Creating a home lab enviroments where I can simulate some scenarios or experiment. 
+In this repository I will only be focused on how to install the VM and how to configure it to communicate with other VMs that are on the same subnet.
+OS Hardening and other topics will be covered in a seperate repository.
 
 ## 🗓️ Ongoing Progress
 This project is continuously updated as I expand my simulated lab environment.
