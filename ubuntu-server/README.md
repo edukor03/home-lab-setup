@@ -2,9 +2,9 @@
 This folder documents the setup and configuration of the Ubuntu Server virtual machine. It plays the role of internal infrastructure host in the cybersecurity lab environment.
 
 ## Contents
-- 'installation.md': Contains the steps for installation and configuring the base system.
-- 'restricting-single-user-mode.md': Documents the use and how to secure single user mode.
-- 'securing-ssh': Configuring SSH
+- **'installation.md'**: Contains the steps for installation and configuring the base system.
+- **'restricting-single-user-mode.md'**: Documents the use and how to secure single user mode.
+- **'securing-ssh'**: Configuring SSH
   - Password policies, change SSH default port, allow certain IP addresses 
 
 ## Summary of Security Measures
