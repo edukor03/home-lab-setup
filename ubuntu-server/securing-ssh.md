@@ -67,7 +67,9 @@ Afterwards restart ssh service.
 
 ## Restrict all users to a specific IP address
 The IP address I'm using is just an example, however it shows the format you need to follow when allowing certain IP addresses or ranges to use SSH connection. * is a wildcard and can mean any user.
-> AllowUsers *@192.168.56.0/24 - It sets a specific subnet range to be allowed to use SSH connection. Also sets that all users from that subnet range can use this service.
+> AllowUsers *@192.168.56.0/24
+
+It sets a specific subnet range to be allowed to use SSH connection. Also sets that all users from that subnet range can use this service.
 
 ![Config file for allowing certain subnet range for SSH connection]()
 
