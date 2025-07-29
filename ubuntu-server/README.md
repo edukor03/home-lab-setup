@@ -3,7 +3,7 @@ This folder documents the setup and configuration of the Ubuntu Server virtual m
 
 ## Contents
 - 'installation.md': Contains the steps for installation and configuring the base system.
-- 'hardening.md': Documents OS-level hardening procedures to reduce the system's attack surface.
+- 'restricting-single-user-mode.md': Documents the use and how to secure single user mode.
 
 ## Summary of Security Measures
 The hardening process includes:
