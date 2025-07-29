@@ -18,12 +18,12 @@ To prevent DDOS Attacks make sure the following settings are set (shown below), 
 * MaxAuthTries 3 - This can be increased or decreased based on your systems risk level. It sets the acceptable number of incorrect guesses.
 * MaxSessions 5 - Sets the number of users that are allowed to use SSH connection at the same time.
 
-![First part Config SSH]()
+![First part Config SSH](screenshots/securessh_1.png)
 
 Next step is to make sure that empty passwords are not allowed. Set the following value:
 * PermitEmptyPasswords no
 
-![Second part Config SSH]()
+![Second part Config SSH](screenshots/securessh_2.png)
 
 Also change the following settings:
 * AllowAgentForwarding no ---⌍ - These are optional, if your system doesn't use it then its better to disable it.
@@ -37,7 +37,7 @@ In addition change the following settings:
 
 These two settings are important as it will log out any users that are idle for sometime. This reduces attack vector by protecting account from unauthorised access if someone forgot to logout.
 
-![Third part Config SSH]()
+![Third part Config SSH](screenshots/securessh_3.png)
 
 To apply all the changes run the following commands:
 > sudo systemctl daemon-reload
@@ -52,7 +52,7 @@ Now those changes can be checked by loging into machine through ssh connection.
 The defult SSH port number is 22. Its a good practice to change SSH port to some unused port numbers like 2222. Changing port numbers can reduce the risk but not completely, some scanning bots will tend to scan defult ports, however more advance bots may also perform scans on unused ports like 2222 to identify any services there. To change SSH port number navigate to /etc/ssh/sshd_config and set the following:
 * Port 2222
 
-![Changing Port in Config SSH]()
+![Changing Port in Config SSH](screenshots/securessh_4.png)
 
 Next step is to allow port 2222 in firewall. To do so run the following command:
 > sudo ufw allow 2222/tcp
@@ -71,6 +71,6 @@ The IP address I'm using is just an example, however it shows the format you nee
 
 It sets a specific subnet range to be allowed to use SSH connection. Also sets that all users from that subnet range can use this service.
 
-![Config file for allowing certain subnet range for SSH connection]()
+![Config file for allowing certain subnet range for SSH connection](screenshots/securessh_5.png)
 
 Save the file and reload the ssh service again.
