@@ -13,7 +13,7 @@ To make sure when booting into recovery mode there are not errors, enter the fol
 
 Once its done press 'Ctrl+X' or 'F10' to boot with this parameters. Example is shown below:
 
-![GRUB boot parameters]()
+![GRUB boot parameters](screenshots/recoverymode_2.png)
 
 First, remount the root directory to read and write mode which allows to change root users password. Enter the following command:
 > mount -o remount,rw /
@@ -26,7 +26,7 @@ To change the password, enter the following command:
 To boot into a default mode enter:
 > exec /sbin/init
 
-![Changing Root Password]()
+![Changing Root Password](screenshots/recoverymode_3.png)
 
 Now try logging into a root user. It will require to enter a newly created password. This way if single user mode is not protected it can allow a hackers to gain access to the system, also it can be used to recover the account after forgeting the password.
 
@@ -34,7 +34,7 @@ Now try logging into a root user. It will require to enter a newly created passw
 Securing a recovery mode is not complicated, however if not careful it can lock you out from the system. First step is to encrypt the password using the following command:
 > grub-mkpasswd-pbkdf2
 
-![Encrypting Password]()
+![Encrypting Password](screenshots/recoverymode_4.png)
 
 After entering a desired password, it will output a code which needs to be saved somewhere or copied for the next step.
 Navigate to '/etc/grub.d' directory and modify 40_custom file, using editors like nano or vim (it requires escalated privilages, use sudo command). Enter the following parameters:
@@ -44,7 +44,7 @@ Navigate to '/etc/grub.d' directory and modify 40_custom file, using editors lik
 
 An example of the complete file is shown below:
 
-![Setting a Password]()
+![Setting a Password](screenshots/recoverymode_6.png)
 
 To update the changes for grub, enter the following command:
 > sudo update-grub
