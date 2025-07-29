@@ -50,3 +50,6 @@ To update the changes for grub, enter the following command:
 > sudo update-grub
 
 Everytime user tries to access GRUB boot menu, it will prompt to enter username and password before allowing access to it.
+
+## Reference
+- https://help.ubuntu.com/community/Grub2/Passwords
