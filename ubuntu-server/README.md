@@ -18,3 +18,6 @@ The hardening process includes:
 
 ## Purpose in Lab
 This system represents a target host in the lab environment, providing services that other machines can scan, exploit, or interact with during simulated scenarios.
+
+> [!Note]
+> Ths directory is a work in progress and will be updated with additional lab activities and configurations as they are developed.
