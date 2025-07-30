@@ -76,15 +76,17 @@ It sets a specific subnet range to be allowed to use SSH connection. Also sets t
 Save the file and reload the ssh service again.
 
 ## Test New Configurations
+For this project, 4 tests will be conducted. Kali Linux Virtual Machine will be used as a user who wants to access Ubuntu Server remotely. Linux has an inbuilt ssh command that can be used to remotely access computer systems that allow SSH connections.
+
 1) User is able to remotely connect to the server using SSH protocol and on 2222 port.
+![](screenshots/securessh_6.png)
 
+3) User cannot use port 22 to remotely connect to the server through SSH protocol.
+![](screenshots/securessh_7.png)
 
-2) User cannot use port 22 to remotely connect to the server through SSH protocol.
+4) User allowed to have maximum of 3 tries to login via SSH connection.
+![](screenshots/securessh_9.png)
 
-
-3) User allowed to have maximum of 3 tries to login via SSH connection.
-
-
-4) User cannot login as a root user through SSH connection.
-
+5) User cannot login as a root user through SSH connection.
+![](screenshots/securessh_8..png)
 
