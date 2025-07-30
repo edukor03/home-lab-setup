@@ -74,3 +74,17 @@ It sets a specific subnet range to be allowed to use SSH connection. Also sets t
 ![Config file for allowing certain subnet range for SSH connection](screenshots/securessh_5.png)
 
 Save the file and reload the ssh service again.
+
+## Test New Configurations
+1) User is able to remotely connect to the server using SSH protocol and on 2222 port.
+
+
+2) User cannot use port 22 to remotely connect to the server through SSH protocol.
+
+
+3) User allowed to have maximum of 3 tries to login via SSH connection.
+
+
+4) User cannot login as a root user through SSH connection.
+
+
